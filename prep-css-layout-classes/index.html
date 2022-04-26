@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Spider-Man</h1>
+  <!-- Complete the HTML here -->
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img
+          src="https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_FMjpg_UX1000_.jpg"
+          alt="Spider-Man 1">
+        <h3>Spider-Man</h3>
+        <p>Spider-Man" centers on student Peter Parker who, after being bitten by a genetically-altered spider,
+          gains superhuman strength and the spider-like ability to cling to any surface. He vows to use his abilities to fight
+          crime, coming to understand the words of his beloved Uncle Ben: "With great power comes great responsibility."</p>
+      </div>
+      <div class="column">
+        <img
+          src="https://m.media-amazon.com/images/M/MV5BMzY2ODk4NmUtOTVmNi00ZTdkLTlmOWYtMmE2OWVhNTU2OTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+          alt="Spider-Man 2">
+        <h3>Spider-Man 2</h3>
+        <p>When a failed nuclear fusion experiment results in an explosion that kills his wife, Dr. Otto Octavius
+          is transformed into Dr. Octopus, a cyborg with deadly metal tentacles. Doc Ock blames Spider-Man for the
+          accident and seeks revenge. Meanwhile, Spidey's alter ego, Peter Parker, faces fading powers and self-doubt.
+          Complicating matters are his best friend's hatred for Spider-Man and his true love's sudden engagement to another man.
+        </p>
+      </div>
+      <div class="column">
+        <img
+          src="https://m.media-amazon.com/images/M/MV5BYTk3MDljOWQtNGI2My00OTEzLTlhYjQtOTQ4ODM2MzUwY2IwXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg"
+          alt="Spider-Man 3">
+        <h3>Spider-Man 3</h3>
+        <p>Peter Parker and M.J. seem to finally be on the right track in their complicated
+          relationship, but trouble looms for the superhero and his lover. Peter's Spider-Man suit turns black and takes control
+          of him, not only giving Peter enhanced power but also bringing out the dark side of his personality. Peter must
+          overcome
+          the suit's influence as two supervillains, Sandman and Venom, rise up to destroy him and all those he holds dear.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
